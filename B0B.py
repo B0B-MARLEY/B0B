@@ -1,14 +1,5 @@
-"""#!/data/data/com.termux/files/usr/bin/python
-import platform,os,sys
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import file64
-elif bit == '32bit':
-    import file32
- """
 
 import os, platform, time, sys
-#os.system('xdg-open https://chat.whatsapp.com/LVHHgKJW6EQHb20n6R4Du8')
 try:
  import requests
 except:os.system("pip uninstall requests -y;pip install requests")
